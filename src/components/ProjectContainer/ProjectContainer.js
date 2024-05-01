@@ -1,34 +1,11 @@
-import { useState, useEffect } from 'react'
 import uniqid from 'uniqid'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import LaunchIcon from '@mui/icons-material/Launch'
 import './ProjectContainer.css'
 
-const ProjectContainer = ({ }) => {
-    const [project, setProject] = useState({});
-
-
-    useEffect(() => {
-        fetch(
-            "https://codebydhaval-php-portfolio-cms.000webhostapp.com/api/projects/user/12"
-        )
-            .then((response) => response.json())
-            .then((data) => {
-                console.log(data);
-                if (data.length > 0) {
-                    setProject(data[0]);
-                }
-
-            })
-            .catch((error) => {
-                console.error(error);
-
-            });
-    }, []);
-
-
-    return (<div className='project'>
-        <h3>{project.title}</h3>
+const ProjectContainer = ({ project }) => (
+    <div className='project'>
+        <h3>{project.name}</h3>
 
         <p className='project__description'>{project.description}</p>
         {project.stack && (
@@ -51,18 +28,16 @@ const ProjectContainer = ({ }) => {
             </a>
         )}
 
-        {project.link && (
+        {project.livePreview && (
             <a
-                href={project.link}
+                href={project.livePreview}
                 aria-label='live preview'
                 className='link link--icon'
             >
                 <LaunchIcon />
             </a>
         )}
-    </div>)
-
-
-}
+    </div>
+)
 
 export default ProjectContainer

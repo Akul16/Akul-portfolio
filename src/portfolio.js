@@ -1,10 +1,18 @@
 const education = [
     {
+        name: 'George Brown College',
+        location: 'Toronto,Canada',
+        course: 'Graduate Certificate',
+        majors: 'Cloud Computing',
+        year: 'Jan 2024 - Present',
+    },
+
+    {
         name: 'Humber College Institute of Technology & Advanced Learning',
         location: 'Toronto,Canada',
         course: 'Graduate Certificate',
         majors: 'Web Development',
-        year: 'Jan 2023 - Present',
+        year: 'Jan 2023 - Dec 2023',
     },
 
     {
@@ -14,33 +22,37 @@ const education = [
         majors: 'Computer Engineering',
         year: 'Jun 2018 - May 2022',
     }
+
 ]
 
 
 const projects = [
+
+    {
+        name: 'BloodBank App',
+        description:
+            'The project is a comprehensive blood donation web application designed to facilitate blood donation activities between three primary user categories: donors, hospitals, and organizations',
+        stack: ['MongoDB', 'Express', 'React', 'Node', 'Redux', 'Tailwind CSS'],
+        sourceCode: 'https://github.com/Akul16/BloodBank-App',
+        livePreview: 'https://akulbloodbank.onrender.com',
+    },
+
     {
         name: 'Memories',
         description:
             'The platform allows users to upload and preserve their cherished memories of significant life events.',
         stack: ['MongoDB', 'Express', 'React', 'Node', 'Material UI', 'Google Authentication'],
-        sourceCode: 'https://github.com',
-        livePreview: 'https://memories-project39.netlify.app/',
+        sourceCode: 'https://github.com/Akul16/memories-project.git',
+        livePreview: 'https://memoriesproject39.netlify.app',
     },
-    {
-        name: 'Library Management System',
-        description:
-            'This robust system effectively catered to the needs of librarians and library members alike, providing efficient management and accessibility of library resources.',
-        stack: ['HTML', 'CSS', 'Javascript', 'PHP'],
-        sourceCode: 'https://github.com',
-        livePreview: 'https://github.com',
-    },
+
     {
         name: 'Travel Advisor',
         description:
             'We have developed a professional travel advisory website utilizing Google Places API and Google Maps API. ',
         stack: ['MongoDB', 'Express', 'React', 'Node', 'Material UI', 'Rapid API'],
-        sourceCode: 'https://github.com',
-        livePreview: 'https://trip-advisor-40.netlify.app/',
+        sourceCode: 'https://github.com/Akul16/Travel-Advisor.git',
+        livePreview: 'https://traveladvisor40.netlify.app',
     },
 
     {
@@ -48,8 +60,8 @@ const projects = [
         description:
             '"Empower users to register, plan, and achieve their aspirations seamlessly with our modern goal-setting platform." ',
         stack: ['MongoDB', 'Express', 'React', 'Node', 'Redux', 'Material UI'],
-        sourceCode: 'https://github.com',
-        livePreview: 'https://github.com',
+        sourceCode: 'https://github.com/Akul16/Goal-setter-app',
+        livePreview: 'https://goal-setter-ckhi.onrender.com',
     },
 
 
@@ -74,6 +86,9 @@ const projects = [
 ]
 
 const skills = [
+    'Microsoft 365',
+    'Networking',
+    'Windows Server',
     'C',
     'C++',
     'Java',
@@ -81,6 +96,7 @@ const skills = [
     'HTML',
     'CSS',
     'JavaScript',
+    'C#',
     'React',
     'Redux',
     'Node',
@@ -95,6 +111,7 @@ const skills = [
     'MongoDB',
     'MySQL',
     'Docker',
+    'Debugging'
 ]
 
 

@@ -20,7 +20,7 @@ const Navbar = () => {
             >
                 <li className='nav__list-item'>
                     <a
-                        href='#education'
+                        href='#educations'
                         onClick={toggleNavList}
                         className='link link--nav'
                     >
