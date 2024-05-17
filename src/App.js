@@ -1,6 +1,6 @@
 import { useContext } from 'react'
 import './App.css';
-import { ThemeContext } from './contexts/theme'
+import { ThemeContext } from './components/contexts/theme'
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Header from './components/Header/Header'

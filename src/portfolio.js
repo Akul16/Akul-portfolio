@@ -89,6 +89,8 @@ const skills = [
     'Microsoft 365',
     'Networking',
     'Windows Server',
+    'AWS',
+    'MS Azure',
     'C',
     'C++',
     'Java',
