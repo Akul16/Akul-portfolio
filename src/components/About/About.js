@@ -1,7 +1,7 @@
 import GitHubIcon from '@mui/icons-material/GitHub'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import './About.css'
-import pdf from './Akul_Patel_SE.pdf'
+import pdf from './Akul-Patel-SE.pdf'
 
 
 const About = () => {
